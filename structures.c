@@ -15,12 +15,12 @@ int main()
 	strcpy(book1.Author, "Dante");
 	book1.book_id = 12330;
 	/* to add new books */
-	printf("Book Name:");
-	scanf("%s", book1.title);
-	printf("Book Author:");
-	scanf("%s", book1.Author);
-	printf("Book ID");
-	scanf("%d", &book1.book_id);
+	printf("Book Name: ");
+	scanf(" %49[^\n]", book1.title);
+	printf("Book Author: ");
+	scanf(" %49[^\n]", book1.Author);
+	printf("Book ID: ");
+	scanf(" %d", &book1.book_id);
 	while ((getchar()) != '\n');
 	/* Print book1 information */
 	printbooks(&book1);
