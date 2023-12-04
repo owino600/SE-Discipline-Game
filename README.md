@@ -37,3 +37,5 @@ POINTER TO STRUCTURES
 - book->title
 - *book.title
 - Option one is more preferable to avoid complexity and confusion though they all perform the same function.
+- in structures.c we will use structures as function arguments
+- next on line will be structures as pointers
