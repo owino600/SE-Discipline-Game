@@ -14,6 +14,13 @@ int main()
 	strcpy(book1.title, "Discipline to Programmers");
 	strcpy(book1.Author, "Dante");
 	book1.book_id = 12330;
+	/* to add new books */
+	printf("Book Name:");
+	scanf("%49[^\n]%*s", book1.title);
+	printf("Book Author:");
+	scanf("%49[^\n]%*s", book1.Author);
+	printf("Book ID");
+	scanf("%d", &book1.book_id);
 	/* Print book1 information */
 	printbooks(&book1);
 }
