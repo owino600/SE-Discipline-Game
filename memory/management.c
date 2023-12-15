@@ -5,6 +5,8 @@ int main()
 {
 	char names[50];
 	char *description;
+	int len;
+
 	strcpy(names, "DANTE");
 
 	description = malloc(40 * sizeof(char));
@@ -25,8 +27,11 @@ int main()
 	{
 		strcat(description, "scored in the class");
 	}
+	len = strlen(description);
+
 	printf("Name = %s\n", names);
 	printf("description = %s\n", description);
+	printf("length of description = %d\n", len);
 
 	free(description);
 }

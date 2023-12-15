@@ -1,13 +1,13 @@
-MEMORY MANAGMENT
-- Memory management is coordinating and controling of computer memory and ensuring programs and
+## MEMORY MANAGMENT
+- Memory management - is coordinating and controling of computer memory and ensuring programs and
 processes have the neccessary memory resources for execution.
 - their are various functions used in memory allocation and management
-	#malloc()
-	#realloc()
-	#calloc()
-	#free()
+	## malloc()
+	## realloc()
+	## calloc()
+	## free()
 
-1: MALLOC()
+## 1: MALLOC()
 - malloc() function is used to allocate specific amount of memory during runtime.
 	e.g. 	int *age
 		age = malloc(10 * sizeof(int))
@@ -16,14 +16,14 @@ sizeof(int) : determines the size of bytes of a single integer on the specific c
 - 10* sizeof(int) : calculates the total memory required for 10 integers. hence int has 4 bytes so
 for ten integers it will be 10 * 4 = 40 bytes
 
-DYNAMIC ALLOCATION
+## DYNAMIC ALLOCATION
 - this is a key word to take close look at.
 dynamic allocation is the process of assigning memory space for variables, arrays and DS during the program execution
 rather than at the compile time.
 - After allocating a memory using malloc always remember to free it to avoid memory leaks and wastage of memory as
 the memory should be returned to the system after use.
 
-2: REALLOC()
+## 2: REALLOC()
 - Used to resize an already allocated block of memory, takes two arguments a pointer to the previously allocated
 block and the new size you want a memory for.
 - If a pointer passed to realloc is NULL it will bahave as malloc and allocate a new memory of the given size.
@@ -33,3 +33,13 @@ it automatically copies the data from the old block of memory to the new block o
 - we can realloc the above malloc to accept 20 integers
 - int *age
 - age = realloc(age, 20 * sizeof(int))
+## STRINGS
+- this are one dimension arrays terminated by a null character '\0'
+** char greeting[6] = {'H', 'e', 'l', 'l', 'o', '\0'};
+- The null character is not written the compiler automatically initialize it at the end of the string
+## Functions in strings
+- strcpy() - copies a string to another string
+- strcat() - concacate a string into the end of another string
+- strlen() - Return the length of the string
+- strcmp() - compares if two strings are the same, if they are the same returns 0, less than 0 if one string is < than another
+                and if one string is > than the other it returns value greator than 0
