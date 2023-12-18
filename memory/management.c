@@ -16,16 +16,18 @@ int main()
 	}
 	else
 	{
-		strcpy(description, "He is the best student with most marks ");
+			/* S1			S2 */
+		strcpy(description, "He is the best student with most marks ");/* copy S1 to S2 */
 	}
-	description = realloc(description, 50 * sizeof(char));
+	description = realloc(description, 50 * sizeof(char)); /* dynamically Allocate a new memory if the first one was less */
 	if (description == NULL)
 	{
 		fprintf(stderr, "memory not allocated");
 	}
 	else
 	{
-		strcat(description, "scored in the class");
+					/* S3 */
+		strcat(description, "scored in the class"); /* join S3 to S2 copied in description */
 	}
 	len = strlen(description);
 
