@@ -6,3 +6,10 @@
 - and extract potion of a string using
 	### string[start:end]
 - Strings can be concanated using the '+' operator or by using the 'join()' method.
+### string methods
+- split()
+- join()
+- upper()
+- lower()
+- strip()
+- replace()
