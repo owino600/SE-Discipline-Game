@@ -13,3 +13,20 @@
 - lower()
 - strip()
 - replace()
+## 1. Upper() and Lower()
+# upper()
+- converts all characters in a string to uppercase
+#lower()
+- converts all characters in a string to lowercase.
+## 2. Strip()
+# strip()
+- Removes leading and trailing whitespaces characters (spaces,tabs, newlines)
+# istrip()
+- Removes leading whitespace characters. That is at the beggining of statements
+# rstrip()
+Removes trailing whitespace characters. That is at the end of statements
+## 3. split() and join()
+# split()
+- splits a string into a list of substrings based on a delimeter.
+# join()
+- join elements of an iterable into a single string using the specified delimeter e.g '-','+' etc
