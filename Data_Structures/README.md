@@ -1,27 +1,29 @@
-## Arrays and strings
+## DATA STRUCTURES
+# Arrays and strings
 - learn abt string manipultion, searching, sorting, and string manipulation techniques.
-## linked lists
+# linked lists
 - understand singly linked lists, doubly linked lists, and circular linked lists.
 - learn about insertion, deletion, and traversal operations.
-## Stacks and Queues
+# Stacks and Queues
 - Explore the concept of stacks and queues along with their applications in solving real-world problems.
-## Hashing
+# Hashing
 - lern about hash functions, hash tables, and collision resolution techniques.
-## Trees
+# Trees
 - Binary Trees, binary search trees, AVL trees, and basic tree traversal algorithms like inorder, preoder, and postorder
-## Sorting Algorithms
+# Sorting Algorithms
 - Familiarize yourself with various sorting algorithms lke bubble sort, insertion sort, merge sort, and quick sort.
-## Searching algorithms
+# Searching algorithms
 - learn about linea search, binary search, and other searching techniques
-## Dynamic Programming
+# Dynamic Programming
 - Explore the concepts and techniques for solving optimization problems.
-## Recursion
+# Recursion
 - understand recursion, recusive algorithms, and their applications.
-## Divide and Conquer
+# Divide and Conquer
 - learn the paradims and applications in solving problems.
-## Greedy Algorithms
-## Backtracking
-## Advanced Data Structures
+# Greedy Algorithms
+# Backtracking
+# Advanced Data Structures
 - learn about DS like heaps, tries, and segment trees.
-## Algorithm Analysis
-- understand how to analyze the time and space complexity of algorithms.
+# Algorithm Analysis
+- understand how to analyze the time and space complexity of algorithms
+## file:///C:/Users/USER/Documents/DATA%20STRUCTURES%20AND%20ALGORITHMS.pdf.
